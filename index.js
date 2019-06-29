@@ -5,19 +5,14 @@ module.exports = {
     "es6": true
   },
   "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
+    "eslint:recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 6,
     "ecmaFeatures": {
-      "jsx": true
     }
   },
-  "plugins": [
-    "react"
-  ],
   "rules": {
     "camelcase": 0,
     "comma-style": 1,
@@ -29,6 +24,7 @@ module.exports = {
         "SwitchCase": 1
       }
     ],
+    "no-alert": 1,
     "no-console": 1,
     "no-unused-vars": [
       1,
