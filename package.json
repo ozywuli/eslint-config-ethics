@@ -1,6 +1,6 @@
 {
   "name": "@ozywuli/eslint-config-ethics",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "peerDependencies": {

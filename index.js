@@ -19,7 +19,7 @@ module.exports = {
     "curly": "error",
     "indent": [
       "warn",
-      2,
+      "tab",
       {
         "SwitchCase": 1
       }
